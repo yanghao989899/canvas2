@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>绘画板</title>
+	<link rel="stylesheet" href="css/palette.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/palette.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+<div class="palette">
+	<div class="pal-list">
+		<h3 class="pal-title">操作区</h3>
+		<div class="pal-item icon" id="add">&#xe604;<span>添加画板</span></div>
+		<div class="pal-item icon" id="save">&#xe60b;<span>保存</span></div>
+		<div class="pal-item icon" id="back">&#xe60f;<span>撤销</span></div>
+		<div class="pal-item icon" id="call">&#xe610;<span>前进</span></div>
+		<div class="pal-item icon" id="clear">&#xe611;<span>清空</span></div>
+		<h3 class="pal-title">绘制区</h3>
+		<div class="pal-item icon" role="line">&#xe606;<span>直线条</span></div>
+		<div class="pal-item icon" role="rect">&#xe60c;<span>矩形</span></div>
+		<div class="pal-item icon" role="rounded">&#xe609;<span>圆角矩形</span></div>
+		<div class="pal-item icon" role="circle">&#xe60d;<span>圆形</span></div>
+		<div class="pal-item icon" role="triangle">&#xe605;<span>三角形</span></div>
+		<div class="pal-item icon" role="poly">&#xe603;<span>多边形</span></div>
+		<div class="pal-item icon" role="polystar">&#xe60a;<span>多角形</span></div>
+		<div class="pal-item icon" role="pencil">&#xe607;<span>铅笔</span></div>
+		<div class="pal-item icon" role="earser">&#xe60e;<span>橡皮擦</span></div>
+		<h3 class="pal-title">样式区</h3>
+		<div class="pal-item icon" role="fill">&#xe600;<span>填充</span></div>
+		<div class="pal-item icon" role="stroke">&#xe608;<span>描边</span></div>
+		<div class="pal-item icon" role="fillStyle">&#xe601;
+			<!-- <input type="color" id="fill-s" value="#FF4600"> -->
+			<input type="color" id="stroke-s" value="#72B32C">
+			<span>填充颜色</span>
+		</div>
+		<div class="pal-item icon" role="strokeStyle">&#xe602;
+			<input type="color" id="stroke-s" value="#72B32C">
+			<span>描边颜色</span>
+		</div>
+	</div>
+	<div class="pal-right">
+		<div class="pal-box">
+			<!-- <canvas id="con"></canvas>
+			<div id="copy"></div> -->
+		</div>
+	</div>
+</div>
+</body>
+</html>
